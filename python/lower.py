@@ -1,3 +1,2 @@
 text = "Hello, Welcome to github"
-Lower_text = text.lower()
-print("lowercase:") #output: "hello, welcome to github"
+print(text.lower()) #output: "hello, welcome to github"

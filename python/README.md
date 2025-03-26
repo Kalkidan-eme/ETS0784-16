@@ -5,3 +5,9 @@ The str.upper() method in Python is used to convert all characters in a string t
 The str.lower() method is used to convert all characters in the string to lowercase. Like str.upper(), it does not take any parameters and returns a new string with all the letters in lowercase, leaving the original string unchanged. 
 # str.title() Method
  The str.title() method converts the first character of each word in the string to uppercase and the rest to lowercase. It also does not take any parameters and returns a new string with each word capitalized. 
+# str.capitalize() Method
+The str.capitalize() method converts the first character of a string to uppercase and all other characters to lowercase, ensuring proper capitalization without modifying the original string.
+# str.swapcase() Method 
+The str.swapcase() Method is used to reverse the case of each alphabetic character in the string, changing uppercase letters to lowercase and vice versa, while leaving non-alphabetic characters untouched. Both of these methods are immutable, creating new strings rather than altering the original ones.
+# str.find() Method 
+ The  str.find() method searches for the first occurrence of a specified substring within the string, returning its starting index, or -1 if the substring is not found. This method is case-sensitive, and it allows optional parameters, start and end, to narrow the search range. 
