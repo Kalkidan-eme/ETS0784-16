@@ -17,3 +17,9 @@ the str.index() method returns the index of the first occurrence of a specified 
 the str.starstwith() method checks whether a string starts with a specified prefix, returning True or False , and supports optional start and end arguments to refine the check range. 
 # str.endswith() Method
 the str.endswith method functions similarly, checking if a string ends with a specified suffix, with support for start and ends parameters.
+# str.count() Method
+The str.count() method counts occurrences of a substring in a string, is case-sensitive, and allows optional start and end parameters to specify the range.
+# str.replace() Method
+the str.replace() method replaces occurrences of a substring with another, allowing an optional count to limit replacements, and returns a new string without modifying the original. immutable, case sensitive and optional count parameter. 
+# str.strip() Method 
+the str.strip method removes leading and trailing characters (default is whitespace) or a specified set of characters, returning a new string while leaving the original unchanged.
