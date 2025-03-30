@@ -23,3 +23,9 @@ The str.count() method counts occurrences of a substring in a string, is case-se
 the str.replace() method replaces occurrences of a substring with another, allowing an optional count to limit replacements, and returns a new string without modifying the original. immutable, case sensitive and optional count parameter. 
 # str.strip() Method 
 the str.strip method removes leading and trailing characters (default is whitespace) or a specified set of characters, returning a new string while leaving the original unchanged.
+# str.lstrip() Method 
+The str.lstrip() method in python removes any leading characters (such as spaces or specified characters) from the beginning of a string. This property is particularly useful for cleaning up text data where unwanted spaces or characters appear at the start. The property it showcases is the ability to handle and manipulate strings effectively by focusing on their starting portion.
+# str.rstrip() Method 
+The str.rstrip() method works similarly but targets the trailing characters at the end of a string. By default, it trims whitespace, but you can specify other characters to remove.
+# str.split() Method 
+The str.split() method is used to divide a string into a list of substrings based on a specified delimiter. The default behavior is to split by whitespace, making it highly useful for processing and analyzing text data.
