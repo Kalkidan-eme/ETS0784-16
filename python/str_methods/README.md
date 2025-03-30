@@ -43,3 +43,11 @@ The str.isspace() method evaluates whether a string is made up entirely of white
 The str.format() method allows you to create formatted strings by embedding dynamic values into placeholders defined using curly braces {} . 
 # F-string 
 Provide a concise way to format strings by embedding variables directly into the text. To use them, you prefix the string with f and include the variables inside curly braces.
+# len()
+It is Used to find the length of a string, which includes all characters, spaces, and symbols.
+# str.encode() Method
+Converts a string into a bytes object using a specific encoding (default is 'utf-8'). This is useful when working with binary data or text encoding.
+# str.islower() Method
+Checks if all alphabetic characters in the string are lowercase.
+# str.isupper() Method
+Checks if all alphabetic characters in the string are uppercase.
