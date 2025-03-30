@@ -29,3 +29,9 @@ The str.lstrip() method in python removes any leading characters (such as spaces
 The str.rstrip() method works similarly but targets the trailing characters at the end of a string. By default, it trims whitespace, but you can specify other characters to remove.
 # str.split() Method 
 The str.split() method is used to divide a string into a list of substrings based on a specified delimiter. The default behavior is to split by whitespace, making it highly useful for processing and analyzing text data.
+# str.join() Method
+The str.join() method in Python is used to concatenate elements of an iterable, such as a list or tuple, into a single string. The string it is called on acts as the delimiter between the elements.
+# str.isalpha() Method 
+The str.isalpha() method checks whether all characters in a string are alphabetic (i.e., letters only, with no numbers or special characters). If the condition is met, it returns True; otherwise, it returns False.
+# str.isdigit() Method
+The str.isdigit() method verifies if all characters in a string are numeric digits. Similarly to , it returns True if the string is made up entirely of digits and False otherwise.
