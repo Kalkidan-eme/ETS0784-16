@@ -35,3 +35,11 @@ The str.join() method in Python is used to concatenate elements of an iterable, 
 The str.isalpha() method checks whether all characters in a string are alphabetic (i.e., letters only, with no numbers or special characters). If the condition is met, it returns True; otherwise, it returns False.
 # str.isdigit() Method
 The str.isdigit() method verifies if all characters in a string are numeric digits. Similarly to , it returns True if the string is made up entirely of digits and False otherwise.
+# str.isalnum() Method
+The str.isalnum() method checks whether all characters in a string are alphanumeric, meaning they consist only of letters and numbers, without any spaces or special symbols. For instance, if the string consists both number and alphabet would return True because it only contains letters and numbers, while False would return  if there is space. 
+# str.issapce() Method
+The str.isspace() method evaluates whether a string is made up entirely of whitespace characters such as spaces, tabs, or newline characters. For example, the string " " would return True because it only contains spaces, while  "hi hi" would return False as it includes non-whitespace characters.
+# str.format() Method 
+The str.format() method allows you to create formatted strings by embedding dynamic values into placeholders defined using curly braces {} . 
+# F-string 
+Provide a concise way to format strings by embedding variables directly into the text. To use them, you prefix the string with f and include the variables inside curly braces.
