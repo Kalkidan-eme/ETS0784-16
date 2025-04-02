@@ -1,0 +1,5 @@
+text = "hello"
+print(text.rjust(10,'_')) #output: "_____hello"
+print(text.rjust(10,'+')) #output: "+++++hello"
+print(text.rjust(4,'+')) #ouput: "hello"
+print(text.rjust(12,'+')) #output: "+++++++hello"

@@ -51,3 +51,15 @@ Converts a string into a bytes object using a specific encoding (default is 'utf
 Checks if all alphabetic characters in the string are lowercase.
 # str.isupper() Method
 Checks if all alphabetic characters in the string are uppercase.
+# str.rjust() Method
+The str.rjust() method helps to align text to the right within a specified width by padding the left side with a specified character (default is a space). It takes two parameters: width, which defines the total width of the string after padding, and fillchar, which specifies the character used for padding. If the original string's length is equal to or greater than the width, no padding is applied. 
+# str.expandtabs() Method
+The str.expandtabs() method focuses on replacing tab characters (\+) within a string with spaces. The method accepts one optional parameter, tabsize, which determines the number of spaces to replace each tab with (default is 8).
+# str.translate() Method
+The str.translate() method allows for flexible and efficient character replacement or removal by using a translation table created with str.maketrans(). Its key property is that it maps characters based on the provided table, which can involve substituting, deleting, or remapping characters.
+# str.zfill() Method
+The str.zfill() method pads a string with zeroes on the left until it reaches the specified width. This method is especially handy for formatting numbers, ensuring consistent lengths by adding leading zeros. It only takes one parameter, width, which defines the desired total string length, and maintains the sign (+/-) at the beginning of numeric strings if present.
+# str.center() Method
+The str.center() method centers a string within a given width, filling the left and right sides with the specified padding character (default is a space). It takes two arguments: width, the total length after padding, and fillchar, which is the character used for padding.
+# str.ljust() Method
+The str.ljust() method aligns text to the left within a defined width, padding the right side with the optional fillchar (default is a space).
