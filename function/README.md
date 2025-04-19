@@ -1,0 +1,2 @@
+# function 
+A function in Python is a reusable block of code that performs a specific task. It helps organize and simplify programs by allowing modularity, encapsulation, and reusability. Functions take inputs (parameters), process them, and often return an output using the return statement. They also define their own scope, meaning variables inside a function don’t affect the rest of the program unless explicitly modified.
